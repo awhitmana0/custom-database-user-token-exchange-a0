@@ -7,8 +7,8 @@ This architecture is triggered by calling the /oauth/token endpoint with a custo
 ## Relevant Documentation
 
 For full details on this feature, refer to the official Auth0 documentation:
-- [Custom Token Exchange](https://auth0.com/docs/get-started/authentication-and-authorization-flow/token-exchange)
-- [Custom Database Connections](https://auth0.com/docs/customize/database-connections/custom-database)
+- [Custom Token Exchange](https://auth0.com/docs/authenticate/custom-token-exchange)
+- [Custom Database Script Templates](https://auth0.com/docs/authenticate/database-connections/custom-db/templates)
 
 ## Why This Approach Is Useful
 
