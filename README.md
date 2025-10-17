@@ -14,7 +14,7 @@ For full details on this feature, refer to the official Auth0 documentation:
 
 This method is ideal when you need to maintain an External Source of Truth for user identity while leveraging Auth0 for authentication flows (Social, Passwordless).
 
-External Identity Linking: If your external database stores existing user records, and users log into Auth0 via a method that doesn't natively link to those records (like a new social login), Custom Token Exchange provides a secure way to automatically link them to the external identity record.
+External Identity Linking: If your external database stores existing user records, and users log into Auth0 via a method that doesn't natively link to those records (like a new social login), Custom Token Exchange provides a secure way to easily import them without the user entering their other credentials so they can be linked to the user's preferred login preference.
 
 Profile Setup: This approach pulls the external identity information directly into the Auth0 user profile, ensuring profile consistency. Crucially, this process does not exchange credentials; it simply uses a validated, secure token to create a record in Auth0 that points to the external identity.
 
