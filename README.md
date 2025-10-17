@@ -4,6 +4,8 @@ This documentation describes the logic required in the Auth0 Custom Token Exchan
 
 This architecture is triggered by calling the /oauth/token endpoint with a custom subject_token.
 
+> **Important**: These scripts and examples are meant to demonstrate a very simple flow for educational purposes. In a production environment, the subject_token should be something you can properly verify (e.g., a signed JWT from a trusted identity provider) prior to completing the token exchange. Never accept unvalidated tokens in production.
+
 ## Relevant Documentation
 
 For full details on this feature, refer to the official Auth0 documentation:
