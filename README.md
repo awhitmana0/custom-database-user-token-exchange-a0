@@ -20,7 +20,7 @@ External Identity Linking: If your external database stores existing user record
 
 Profile Setup: This approach pulls the external identity information directly into the Auth0 user profile, ensuring profile consistency. Crucially, this process does not exchange credentials; it simply uses a validated, secure token to create a record in Auth0 that points to the external identity.
 
-Note: If you are migrating users completely into Auth0 and will no longer use the external source of truth (meaning the Custom Database connection could use "Import Users to Auth0"), this approach is unnecessary.
+Note: If you are migrating users completely into Auth0 and will no longer use the external source of truth (meaning the Custom Database connection could use "Import Users to Auth0"), this approach is not needed. 
 
 ## Architecture Flow
 
